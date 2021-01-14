@@ -34,18 +34,4 @@ public class HelloController {
         logger.info("Return the new data");
         return data;
     }
-
-    private Map<Object, Object> getIp() {
-        /*HttpHeaders headers = new HttpHeaders();
-        headers.setContentType(MediaType.TEXT_PLAIN);
-        HttpEntity<String> entity = new HttpEntity<String>("helloWorld", headers);
-
-        ResponseEntity<JsonNode> response = restTemplate.exchange(URL, HttpMethod.GET, entity, JsonNode.class);
-        JsonNode map = response.getBody();
-        return map;*/
-
-        Map<Object, Object> ip = new HashMap<>();
-        ip = restTemplate.getForObject(URL, Map.class);
-        return ip;
-    }
 }
