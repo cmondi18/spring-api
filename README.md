@@ -9,7 +9,7 @@ The API get your IP from another resource, add new json data and return it to yo
 
 ### How to run with Gradle
 
-Type from command line for running tests:
+Type from command line for running application:
 
 ```
 ./gradlew bootRun
