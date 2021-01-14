@@ -16,7 +16,7 @@ Type from command line for running tests:
 ```
 
 ### How to work with this project
-#####Test user info:
+Test user info:
 ```
 login: user
 password: password
